@@ -61,8 +61,10 @@ Usando `Pandas` y `Seaborn` para encontrar cuellos de botella.
 
 ## 📫 Contacto
 
-📧 jpcano983@gmail.com
+📧 jpcano983@gmail.com 
+
 🔗 [LinkedIn](https://www.linkedin.com/in/juan-pablo-cano-chaparro-1aa685209/)  
+
 📂 [Portafolio de proyectos (repos)](https://github.com/TU_USUARIO_AQUÍ)
 
 ---
