@@ -1,2 +1,3 @@
-# Acerca de mi <img src="<img src="https://cdn.pixabay.com/animation/2023/08/21/13/31/13-31-04-403_512.giff" width="35">" width="35">
+# ¡Hola! 👋 <img src="https://cdn.pixabay.com/animation/2022/10/07/00/20/00-20-00-704_512.gif" width="60">
+
 # Estudios 
