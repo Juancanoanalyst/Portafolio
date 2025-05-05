@@ -14,9 +14,9 @@ Soy un **Ingeniero Industrial** apasionado por los datos, la automatización y l
 
 ---
 
-## 🧰 Tecnologías y herramientas
+## Skills
 
-![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=blue)
 ![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Numpy](https://img.shields.io/badge/numpy-%23357ebd.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
