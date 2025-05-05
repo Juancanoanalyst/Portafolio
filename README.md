@@ -1,5 +1,4 @@
-
-##¡Hola, soy Juan Pablo Cano Chaparro! <img src="https://cdn.pixabay.com/animation/2022/10/07/00/20/00-20-00-704_512.gif" width="50"/>
+## Juan Pablo Cano
 
 📊 Industrial Engineer & Data Analyst | Data Storyteller | Pythonista
 
