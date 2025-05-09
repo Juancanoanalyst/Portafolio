@@ -48,14 +48,36 @@ Soy un **Ingeniero Industrial** apasionado por los datos, la automatización y l
 
 ## 📈 Últimos proyectos
 
-🔹 **Análisis de datos de ventas**  
-Dashboard en Power BI y Python para detectar tendencias y segmentos clave.
+🔹 Análisis de ventas de videojuegos con Python
 
-🔹 **Modelo de predicción de interacciones en redes sociales**  
-Regresión con `RandomForestRegressor` para analizar actividad en Facebook.
+## 🧩 Descripción
+Este proyecto analiza los datos de ventas de una compañia que vende videojuegos online para identificar patrones de consumo, estacionalidad y proponer mejoras en las campañas de marketing.
 
-🔹 **Limpieza y análisis exploratorio de datos industriales**  
-Usando `Pandas` y `Seaborn` para encontrar cuellos de botella.
+## 📊 Herramientas utilizadas
+- Python (Pandas, Matplotlib, Seaborn , Numpy)
+- Jupyter Notebook
+- Git
+- Scipy
+- Visual Studio Code
+
+## 📁 Estructura del repositorio
+/notebooks
+/data
+/images
+README.md
+
+## 📈 Resultados destacados
+- Identificación el impacto regional que según la zona en este caso Europa , Norte America y japon .
+
+-Rotación de juegos recomendada según la vida útil generacional y la tendencia de la consola.
+
+## 📎 Recursos
+- [Notebook principal](notebooks/analisis_ventas.ipynb)
+- [Visualización en Power BI](enlace-a-powerbi)
+
+## ✍️ Autor
+Juan Pablo Cano | [LinkedIn](https://www.linkedin.com/in/juan-pablo-cano-chaparro-1aa685209/) | [Portafolio](https://juancanoanalyst.github.io/Portafolio)
+
 
 ---
 
