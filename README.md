@@ -48,46 +48,107 @@ Soy un **Ingeniero Industrial** apasionado por los datos, la automatización y l
 
 ## 📈 Últimos proyectos
 
-🔹 Análisis de ventas de videojuegos con Python
+# 🎮 Análisis de Ventas de Videojuegos
 
-## 🧩 Descripción
-Este proyecto analiza los datos de ventas de una compañia que vende videojuegos online para identificar patrones de consumo, estacionalidad y proponer mejoras en las campañas de marketing.
+## 🧠 Descripción del Proyecto
 
-## 📊 Herramientas utilizadas
-- Python (Pandas, Matplotlib, Seaborn , Numpy)
-- Jupyter Notebook
-- Git
-- Scipy
-- Visual Studio Code
+Trabajas para una tienda online llamada *Ice* que vende videojuegos a nivel mundial. A partir de reseñas de usuarios y críticos, géneros, plataformas (como Xbox y PlayStation) y datos históricos de ventas, tu objetivo es **identificar patrones que determinan si un videojuego será exitoso o no**, con el fin de detectar proyectos prometedores y planificar campañas publicitarias efectivas para 2017.
 
-## 📁 Estructura del repositorio
-/notebooks
-/data
-/images
-README.md
-
-## 📈 Resultados destacados
-- Identificación el impacto regional que según la zona en este caso Europa , Norte America y japon .
-
--Rotación de juegos recomendada según la vida útil generacional y la tendencia de la consola.
-
-## 📎 Recursos
-- [Notebook principal](notebooks/analisis_ventas.ipynb)
-- [Visualización en Power BI](enlace-a-powerbi)
-
-## ✍️ Autor
-Juan Pablo Cano | [LinkedIn](https://www.linkedin.com/in/juan-pablo-cano-chaparro-1aa685209/) | [Portafolio](https://juancanoanalyst.github.io/Portafolio)
-
+Este análisis se basa en datos disponibles hasta el año 2016.
 
 ---
 
-## 📫 Contacto
+## 📁 Dataset Utilizado
 
-📧 jpcano983@gmail.com 
+- Fuente: `/datasets/games.csv`
+- Columnas destacadas:
+  - `Name`, `Platform`, `Year_of_Release`, `Genre`
+  - `NA_sales`, `EU_sales`, `JP_sales`, `Other_sales`
+  - `Critic_Score`, `User_Score`, `Rating`
 
-🔗 [LinkedIn](https://www.linkedin.com/in/juan-pablo-cano-chaparro-1aa685209/)  
+---
 
-📂 [Portafolio de proyectos (repos)](https://github.com/TU_USUARIO_AQUÍ)
+## 🧰 Herramientas Utilizadas
+
+- Python (Jupyter Notebook)
+- Librerías: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy.stats`
+
+---
+
+## 🔍 Metodología de Análisis
+
+1. **Carga y preprocesamiento de datos**
+   - Estandarización de nombres de columnas
+   - Conversión de tipos de datos
+   - Tratamiento de valores ausentes (incluyendo valores "TBD")
+   - Cálculo de las ventas totales por juego (`total_sales`)
+
+2. **Análisis exploratorio**
+   - Juegos lanzados por año
+   - Tendencias de ventas por plataforma
+   - Ciclo de vida de consolas: aparición y desaparición
+   - Análisis de plataformas líderes y emergentes
+
+3. **Análisis de correlaciones**
+   - Relación entre reseñas de críticos/usuarios y ventas
+   - Análisis de ventas por género
+
+4. **Segmentación por región**
+   - Principales plataformas y géneros en NA, EU y JP
+   - Impacto de la clasificación ESRB por región
+
+5. **Pruebas de hipótesis**
+   - Comparación de medias: Xbox One vs PC
+   - Diferencia de calificaciones: Acción vs Deportes
+
+---
+
+## 📈 Resultados Clave
+
+- Algunas plataformas (como PS2) fueron líderes en el pasado, pero ya no generan ventas.
+- Las ventas en Norteamérica son significativamente mayores que en otras regiones.
+- Las calificaciones de los críticos muestran una **correlación débil o moderada** con las ventas.
+- Los géneros de Acción y Deportes dominan el mercado en cantidad, pero no necesariamente en rentabilidad.
+- Las pruebas de hipótesis revelaron diferencias estadísticamente significativas entre ciertos géneros.
+
+---
+
+## 🌍 Perfil Regional
+
+- **NA (Norteamérica):** Domina Xbox y géneros como Acción y Deportes.  
+- **EU (Europa):** Similar a NA, con ligera preferencia por PlayStation.  
+- **JP (Japón):** Preferencia clara por Nintendo y géneros como Rol (RPG).  
+- **ESRB:** Su impacto varía por región, con más relevancia en NA.
+
+---
+
+## ✅ Conclusiones
+
+Este análisis permite seleccionar plataformas y géneros con mayor potencial para futuras campañas de marketing. Se sugiere enfocar esfuerzos en consolas emergentes con crecimiento reciente y géneros con mayor rentabilidad ajustada por ventas promedio. Además, los patrones regionales son clave para personalizar estrategias publicitarias.
+
+---
+
+## 👨‍💻 Autor
+
+**Juan David Cano**  
+- GitHub: [@juancanoanalyst](https://github.com/juancanoanalyst)  
+- Portafolio: [juancanoanalyst.github.io/Portafolio](https://juancanoanalyst.github.io/Portafolio/)  
+- LinkedIn: *(agrega aquí tu perfil si deseas)*
+
+---
+
+## 📎 Archivos
+
+- `video_games_sales_analysis.ipynb`: Notebook completo con el análisis
+- `README.md`: Este archivo
+
+---
+
+## 📌 Nota
+
+Este proyecto forma parte de un bootcamp en análisis de datos realizado en TripleTen. Se trabajó con un enfoque de negocio y análisis estadístico aplicado, empleando herramientas reales utilizadas en la industria.
+
+
 
 ---
 
