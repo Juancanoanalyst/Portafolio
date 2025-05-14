@@ -133,7 +133,7 @@ Este análisis permite seleccionar plataformas y géneros con mayor potencial pa
 **Juan David Cano**  
 - GitHub: [@juancanoanalyst](https://github.com/juancanoanalyst)  
 - Portafolio: [juancanoanalyst.github.io/Portafolio](https://juancanoanalyst.github.io/Portafolio/)  
-- LinkedIn: *(agrega aquí tu perfil si deseas)*
+- LinkedIn: https://www.linkedin.com/in/juan-pablo-cano-chaparro-1aa685209/
 
 ---
 
