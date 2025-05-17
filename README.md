@@ -1,6 +1,6 @@
 ## Juan Pablo Cano
 
-📊 Industrial Engineer & Data Analyst | Data Storyteller | Pythonista
+📊 Industrial Engineer & Data Analyst | Data Storyteller 
 
 ---
 
